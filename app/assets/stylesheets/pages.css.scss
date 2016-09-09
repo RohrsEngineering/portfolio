@@ -44,11 +44,12 @@ body,html {
   text-align:left;
   text-indent:-9999px;
   display:block;
-  height:70px;
-  width:400px;
+  height:100px;
+  width:200px;
   background-image: image-url("RohrsEngineering.jpg");
   background-position:center center;
   background-size:contain;
+  background-repeat: no-repeat;
 }
 
 .main{
