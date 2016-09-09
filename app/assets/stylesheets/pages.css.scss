@@ -46,16 +46,21 @@ a.btn{
 .menu li a{
   color:#000;
 }
-.name h1{
+/*.name h1{
   color:#000;
   font-size:18px;
   line-height:100px;
   height:100px;
   margin:0;
   text-align:right;
+}*/
+.name{
+  background-image: image-url("RohrsEngineering.jpg");
+  background-position:center center;
+  background-size:auto auto;
 }
 .footer{
-  /*background-color:#fff;*/
+  background-color:#fff;
   height:200px;
   text-align:right;
   width:100%;
@@ -76,10 +81,10 @@ a.btn{
   display:block;
   height:24px;
   width:24px;
+  /*background-size: 24px 24px;*/
 }
 .github{
   background-image: image-url("github-logo.png");
-  background-size: auto auto;
   background-position:center center;
 }
 .linkedin{
@@ -109,6 +114,7 @@ a.btn{
 }
 .facebook{
   background-image: image-url("social.png");
+  background-image: contain;
   background-position:center center;
 }
 .pinterest{
@@ -137,7 +143,8 @@ a.btn:hover,.nav li a:hover,.nav-btn:hover{
   transition:background-color .5s;
 }
 .home .jumbotron{
-  background:url(/assets/home-db103bf75e724b89102c607792424914.jpg) center center;
+  background-image: image-url("RohrsEngineeringBackground.jpg");
+  background-position: center center;
   background-size:cover;min-height:600px;
   width:100%;
 }
