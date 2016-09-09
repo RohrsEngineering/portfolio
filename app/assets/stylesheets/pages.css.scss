@@ -15,6 +15,18 @@ body,html {
   padding:0 200px 0 280px;
   width:100%;
 }
+.header .navbar-brand {
+  height: 80px;
+}
+
+.header .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.header .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
 .main{
   width:100%;
 }
