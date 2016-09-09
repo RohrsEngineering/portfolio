@@ -16,7 +16,7 @@ body,html {
   width:100%;
 }
 .header .navbar-brand {
-  height: 100px;
+  height: 70px;
 }
 
 .header .nav >li >a {
@@ -27,19 +27,13 @@ body,html {
   padding: 10px;
   margin: 25px 15px 25px 0;
 }
-/*
-.navbar-header a {
-  display:inline-block;
-  margin:0 0 0 10px;
-  text-align:left;
-  text-indent:-9999px;
-  display:block;
-  height:70px;
-  width:400px;
-  background-size: 400px 70px;
+
+.logo {
+  margin-top: 0px;
+  max-height: 80px;
 }
-*/
-.logo{
+
+/*.logo{
   text-align:left;
   text-indent:-9999px;
   display:block;
@@ -49,7 +43,7 @@ body,html {
   background-position:center center;
   background-size:contain;
   background-repeat: no-repeat;
-}
+}*/
 
 .main{
   width:100%;
@@ -84,74 +78,8 @@ a.btn{
   color:#000;
 }
 
-.footer{
-  background-color:#fff;
-  height:200px;
-  text-align:right;
-  width:100%;
-}
-.footer .social_media {
-  margin:65px 0 20px;
-  width:100%;
-}
-.social_media li{
-  display:inline-block;
-  height:24px;
-  margin:0 0 0 10px;
-  text-align:left;
-  text-indent:-9999px;
-  width:24px;
-}
-.social_media li a{
-  display:block;
-  height:24px;
-  width:24px;
-  background-size: 24px 24px;
-}
-.github{
-  background-image: image-url("github-logo.png");
-  background-position:center center;
-}
-.linkedin{
-  background-image: image-url("linkedin-logo.png");
-  background-size: 24px 24px;
-  background-position:center center;
-}
-.tumblr{
-  background-image:url(/tumblr.svg);
-  background-position:center center;
-}
-.twitter{
-  background-image:url(/assets/twitter-8c095eaee58362a46d56e3f07b50b23b.svg);
-  background-position:center center;
-}
-.youtube{
-  background-image:url(/youtube.svg);
-  background-position:center center;
-}
-.vimeo{
-  background-image:url(/vimeo.svg);
-  background-position:center center;
-}
-.instagram{
-  background-image:url(/assets/instagram-057a090ac0e0184c68efc07e412eec3b.svg);
-  background-position:center center;
-}
-.facebook{
-  background-image: image-url("social.png");
-  background-image: contain;
-  background-position:center center;
-}
-.pinterest{
-  background-image:url(/pinterest.svg);
-  background-position:center center;
-}
-.gplus{
-  background-image:url(/assets/gplus-b3a33145641e08e048cd10ed0ece59ce.svg);
-  background-position:center center;
-}
 .main .container{
-  margin:80px 0;
+  margin:0px 0;
 }
 .main h2{
   color:#000;
@@ -161,12 +89,7 @@ a.btn{
 }
 
 .home h2{
-  color:#fff;
-}
-
-.slogan {
-  color: #000;
-  text-align:right;
+  color:#000;
 }
 
 a.btn:hover,.nav li a:hover,.nav-btn:hover{
@@ -268,6 +191,74 @@ a.btn:hover,.nav li a:hover,.nav-btn:hover{
 .right{
   float:right;
 }
+
+.footer{
+  background-color:#fff;
+  height:200px;
+  text-align:right;
+  width:100%;
+}
+.footer .social_media {
+  margin:65px 0 20px;
+  width:100%;
+}
+.social_media li{
+  display:inline-block;
+  height:24px;
+  margin:0 0 0 10px;
+  text-align:left;
+  text-indent:-9999px;
+  width:24px;
+}
+.social_media li a{
+  display:block;
+  height:24px;
+  width:24px;
+  background-size: 24px 24px;
+}
+.github{
+  background-image: image-url("github-logo.png");
+  background-position:center center;
+}
+.linkedin{
+  background-image: image-url("linkedin-logo.png");
+  background-size: 24px 24px;
+  background-position:center center;
+}
+.tumblr{
+  background-image:url(/tumblr.svg);
+  background-position:center center;
+}
+.twitter{
+  background-image:url(/assets/twitter-8c095eaee58362a46d56e3f07b50b23b.svg);
+  background-position:center center;
+}
+.youtube{
+  background-image:url(/youtube.svg);
+  background-position:center center;
+}
+.vimeo{
+  background-image:url(/vimeo.svg);
+  background-position:center center;
+}
+.instagram{
+  background-image:url(/assets/instagram-057a090ac0e0184c68efc07e412eec3b.svg);
+  background-position:center center;
+}
+.facebook{
+  background-image: image-url("social.png");
+  background-image: contain;
+  background-position:center center;
+}
+.pinterest{
+  background-image:url(/pinterest.svg);
+  background-position:center center;
+}
+.gplus{
+  background-image:url(/assets/gplus-b3a33145641e08e048cd10ed0ece59ce.svg);
+  background-position:center center;
+}
+
 @media screen and (max-width: 800px){
   .container{
     padding:0 20px 0 100px;

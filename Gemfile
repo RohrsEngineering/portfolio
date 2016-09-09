@@ -5,7 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.1'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
-# Changed sqlite3 to pg for Heroku
+# Added pg for Heroku production deployment
+gem 'sqlite3', group: :development
 gem 'pg', '0.18.1', group: :production
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
@@ -43,4 +44,5 @@ gem 'spring',        group: :development
 # added rails_12factor for Heroku
 gem 'rails_12factor', group: :production
 
-
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
