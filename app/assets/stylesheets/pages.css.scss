@@ -18,6 +18,23 @@ body,html {
 .main{
   width:100%;
 }
+.header .navbar-brand {
+  height: 80px;
+}
+
+.header .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.header .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+.logo{
+  background-image: image-url("RohrsEngineering.jpg");
+  background-position:center center;
+  background-size:100px auto;
+}
 a.btn{
   background-color:rgba(0,0,0,0.9);
   border-radius:0;
@@ -46,19 +63,12 @@ a.btn{
 .menu li a{
   color:#000;
 }
-/*.name h1{
-  color:#000;
-  font-size:18px;
-  line-height:100px;
-  height:100px;
-  margin:0;
-  text-align:right;
-}*/
-.name{
-  background-image: image-url("RohrsEngineering.jpg");
-  background-position:center center;
-  background-size:100px auto;
-}
+
+.social_media li a{
+  display:block;
+  height:24px;
+  width:24px;
+
 .footer{
   background-color:#fff;
   height:200px;
@@ -81,7 +91,7 @@ a.btn{
   display:block;
   height:24px;
   width:24px;
-  /*background-size: 24px 24px;*/
+  background-size: 24px 24px;
 }
 .github{
   background-image: image-url("github-logo.png");
